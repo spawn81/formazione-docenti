@@ -10,7 +10,7 @@ export default function PresentationLayout() {
           {/* Logo Sinistro - Scuola Italiana */}
           <div className="w-48 shrink-0 md:w-56 lg:w-64">
             <img
-              src="/logo-scuola-italiana.png"
+              src="logo-scuola-italiana.png"
               alt="Scuola Italiana"
               className="object-contain w-auto h-12 md:h-14 lg:h-16"
             />
@@ -24,8 +24,7 @@ export default function PresentationLayout() {
           {/* Logo Destro - STEAM */}
           <div className="flex justify-end w-48 shrink-0 md:w-56 lg:w-64">
             <img
-              src="/logo-steam.png"
-              alt="STEAM"
+              src="logo-steam.png" alt="STEAM"
               className="object-contain w-auto h-12 md:h-14 lg:h-16"
             />
           </div>
