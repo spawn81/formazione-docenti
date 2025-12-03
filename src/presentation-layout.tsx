@@ -4,8 +4,8 @@ import Presentation from "./Presentation";
 export default function PresentationLayout() {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = 'suggerimentiPrompt.pdf';
-        link.download = 'suggerimentiPrompt.pdf';
+        link.href = 'SuggerimentiPrompt.pdf';
+        link.download = 'SuggerimentiPrompt.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
