@@ -54,9 +54,16 @@ function PresentationLayoutInner({ handleDownload }) {
             {/* Footer Bar */}
             <footer className="w-full bg-[#2c5f7c] text-white py-3 md:py-4 fixed bottom-0 left-0 right-0 z-50">
                 <div className="max-w-[1920px] mx-auto px-6">
-                    <p className="text-sm text-center md:text-base lg:text-lg">
-                        <span className="font-semibold">Autori:</span> Leonardo Martino e Gennaro Iaccarino
-                    </p>
+                    <div className="flex flex-col items-center justify-center gap-3 md:flex-row md:gap-4">
+                        <p className="text-sm text-center md:text-base lg:text-lg">
+                            <span className="font-semibold">Autori:</span> Leonardo Martino e Gennaro Iaccarino
+                        </p>
+                        <img
+                            src="https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+                            alt="Licenza Creative Commons BY-SA"
+                            className="h-8"
+                        />
+                    </div>
                 </div>
             </footer>
 
