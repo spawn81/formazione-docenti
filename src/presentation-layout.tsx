@@ -58,11 +58,18 @@ function PresentationLayoutInner({ handleDownload }) {
                         <p className="text-sm text-center md:text-base lg:text-lg">
                             <span className="font-semibold">Autori:</span> Leonardo Martino e Gennaro Iaccarino
                         </p>
-                        <img
-                            src="https://licensebuttons.net/l/by-sa/4.0/88x31.png"
-                            alt="Licenza Creative Commons BY-SA"
-                            className="h-8"
-                        />
+                        <a
+                            href="https://creativecommons.org/licenses/by-sa/4.0/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="transition-opacity hover:opacity-80"
+                        >
+                            <img
+                                src="https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+                                alt="Licenza Creative Commons BY-SA"
+                                className="h-8"
+                            />
+                        </a>
                     </div>
                 </div>
             </footer>
